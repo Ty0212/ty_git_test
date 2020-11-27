@@ -1,0 +1,314 @@
+Dependencies for Project 'M0_SOC', Target 'soc_m0': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\APP\main.c)(0x5F87E9F4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\main.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (APP\project.h)(0x5D5BBC99)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\APP\EINK\Eink_Driver.h)(0x5F856CE6)
+I (.\APP\project.h)(0x5D5BBC99)
+F (.\APP\project.h)(0x5D5BBC99)()
+F (.\APP\EINK\EINK_Driver.c)(0x5F880108)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\eink_driver.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\eink_driver.crf --depend .\objects\eink_driver.d)
+I (.\APP\project.h)(0x5D5BBC99)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\APP\EINK\Eink_Driver.h)(0x5F856CE6)
+F (.\APP\EINK\EINK_Driver.h)(0x5F856CE6)()
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\list.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\list.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\queue.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\queue.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\queue.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\tasks.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\tasks.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\timers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\stack_macros.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\timers.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\timers.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\queue.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\timers.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\MemMang\heap_4.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\heap_4.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+F (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)()
+F (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\freertos_evr.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\semphr.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\queue.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\event_groups.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\timers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\stream_buffer.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\port.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\port.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)()
+F (.\Common\CMSIS-FreeRTOS\10.0.1\Source\event_groups.c)(0x5D6378FB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\event_groups.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\timers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\event_groups.h)(0x5D6378FB)
+F (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)()
+F (.\APP\TN2115s_libs\TN2115s.lib)(0x5EF1BE26)()
+F (.\APP\TN2115s_libs\config.c)(0x5F802F03)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O1 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\APP -I .\APP\TN2115s_libs -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\include -I .\Common\RTE\RTOS -I .\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include -I .\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0 -I .\APP\EINK -I .\Device_desc -I .\Common\CMSIS-FreeRTOS\10.0.1\Source -I .\Common\RTE\Device\ARMCM0-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM0-o .\objects\config.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (.\APP\project.h)(0x5D5BBC99)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\APP\main.h)(0x5D5BBC99)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\TN2115s1.h)(0x5D6378FB)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\Common\RTE\RTOS\..\..\..\Device_desc\system_TN2115s1.h)(0x5CFDBCBE)
+I (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)
+I (.\APP\TN2115s_libs\macros.h)(0x5EF014DC)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\FreeRTOS.h)(0x5D6378FB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Common\RTE\RTOS\FreeRTOSConfig.h)(0x5EE97365)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D6378FB)
+I (.\RTE\_soc_m0\RTE_Components.h)(0x5F34B448)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\projdefs.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\portable.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\deprecated_definitions.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\mpu_wrappers.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\task.h)(0x5D6378FB)
+I (.\Common\CMSIS-FreeRTOS\10.0.1\Source\include\list.h)(0x5D6378FB)
+I (.\APP\EINK\Eink_Driver.h)(0x5F856CE6)
+F (.\APP\TN2115s_libs\TN2115s_oslib.h)(0x5EF1BDBA)()
+F (.\Common\RTE\Device\ARMCM0\startup_ARMCM0.s)(0x5DCF8A8C)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I .\APP\UART -I .\APP\IIC-I.\RTE\_soc_m0-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bbb\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "ARMCM0 SETA 1"--list .\listings\startup_armcm0.lst --xref -o .\objects\startup_armcm0.o --depend .\objects\startup_armcm0.d)
